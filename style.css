@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.col {
+    float: left;
+    width: 20%;
+    min-height: 700px;
+}
+
+.content {
+    width: 65%;
+    display: block;
+    margin: 50px auto;
+    height: 90px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #00f;
+}
